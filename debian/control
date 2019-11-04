@@ -1,0 +1,37 @@
+Source: libopusenc
+Maintainer: Calvin Walton <calvin.walton@kepstin.ca>
+Build-Depends: libopus-dev (>= 1.1), pkg-config, debhelper (>= 9)
+Build-Depends-Indep: doxygen, graphviz
+Homepage: https://opus-codec.org/
+Vcs-Browser: https://git.xiph.org/?p=libopusenc.git
+Vcs-Git: https://git.xiph.org/libopusenc.git
+
+Package: libopusenc0
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: High-level API for encoding Ogg Opus audio streams
+ libopusenc provides a convenient high-level API for creating .opus files or
+ streaming Ogg Opus data.  It is implemented as a layer on top of Xiph.Org's
+ reference libopus library.
+ .
+ This package provides the libopusenc runtime library.
+
+Package: libopusenc-dev
+Architecture: any
+Depends: libopusenc0 (= ${binary:Version}), libopus-dev (>= 1.1)
+Description: High-level API for encoding Ogg Opus audio streams
+ libopusenc provides a convenient high-level API for creating .opus files or
+ streaming Ogg Opus data.  It is implemented as a layer on top of Xiph.Org's
+ reference libopus library.
+ .
+ This package provides the libopusenc library headers and development files.
+
+Package: libopusenc-doc
+Architecture: all
+Description: libopusenc API documentation
+ libopusenc provides a convenient high-level API for creating .opus files or
+ streaming Ogg Opus data.  It is implemented as a layer on top of Xiph.Org's
+ reference libopus library.
+ .
+ This package contains the developer documentation for libopusenc.
+
