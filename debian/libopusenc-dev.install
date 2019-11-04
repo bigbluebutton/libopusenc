@@ -1,0 +1,4 @@
+usr/include/opus
+usr/lib/*/libopusenc.a
+usr/lib/*/libopusenc.so
+usr/lib/*/pkgconfig
