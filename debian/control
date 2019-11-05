@@ -1,7 +1,7 @@
 Source: libopusenc
 Section: sound
 Maintainer: Calvin Walton <calvin.walton@kepstin.ca>
-Build-Depends: libopus-dev (>= 1.1), pkg-config, debhelper (>= 10)
+Build-Depends: libopus-dev (>= 1.1), pkg-config, debhelper (>= 9)
 Build-Depends-Indep: doxygen, graphviz
 Homepage: https://opus-codec.org/
 Vcs-Browser: https://git.xiph.org/?p=libopusenc.git
