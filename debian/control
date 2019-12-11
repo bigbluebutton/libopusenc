@@ -10,7 +10,7 @@ Vcs-Git: https://git.xiph.org/libopusenc.git
 Package: libopusenc0
 Architecture: any
 Section: sound
-Depends: ${shlibs:Depends} ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: High-level API for encoding Ogg Opus audio streams
  libopusenc provides a convenient high-level API for creating .opus files or
  streaming Ogg Opus data.  It is implemented as a layer on top of Xiph.Org's
