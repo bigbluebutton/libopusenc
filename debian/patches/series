@@ -1,0 +1,4 @@
+4-0001-picture-c-Fix-signed-shift-undefined-behavior.patch
+4-0002-Fix-ope_encoder_drain-assertion-failure.patch
+4-0003-Fix-use-of-uninitialized-field.patch
+4-0004-Fix-use-of-uninitialized-serialno.patch

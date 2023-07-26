@@ -1,3 +1,10 @@
+libopusenc (0.2.1-1bbb2) bionic; urgency=medium
+
+  * Fix undefined behavior, assertion failure, and use of uninitialized values
+    Upstream patches from https://gitlab.xiph.org/xiph/libopusenc/-/merge_requests/4
+
+ -- Calvin Walton <calvin.walton@kepstin.ca>  Wed, 26 Jul 2023 12:57:53 -0400
+
 libopusenc (0.2.1-1bbb1) xenial; urgency=medium
 
   * New upstream version 0.2.1
