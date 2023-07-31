@@ -1,4 +1,4 @@
-libopusenc (0.2.1-1bbb2) bionic; urgency=medium
+libopusenc (0.2.1-1bbb2) focal; urgency=medium
 
   * Fix undefined behavior, assertion failure, and use of uninitialized values
     Upstream patches from https://gitlab.xiph.org/xiph/libopusenc/-/merge_requests/4
